@@ -4,11 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/vite-deploy/',
   root: 'src',
-  server: {
-    proxy: {
-      '/api': 'http://localhost:5555',
-    },
-  },
 });

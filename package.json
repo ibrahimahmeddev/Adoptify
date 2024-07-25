@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "prebuild": "mkdir -p dist",
     "build": "vite build",
     "preview": "vite Preview",
     "format": "prettier --write\"src/**/*.{js,jsx}\"",
