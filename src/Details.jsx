@@ -5,7 +5,7 @@ import { adopt } from './adoptedPetSlice/adoptedPetSlice';
 import ErrorBoundary from './ErrorBoundary';
 import Carousel from './Carousel/Carousel';
 import { useDispatch } from 'react-redux';
-import Modal from './Modal/Modal';
+// import Modal from './Modal/Modal';
 import { useState } from 'react';
 import ModalContent from './Modal/ModalContent';
 import { createPortal } from 'react-dom';
